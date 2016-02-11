@@ -16,29 +16,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <script src="../../web-component-tester/browser.js"></script>
 
-    <link rel="import" href="../google-at-uh.html">
+    <link rel="import" href="../uh-theme.html">
+    <link rel="import" href="../uh-styles.html">
+    <link rel="stylesheet" href="../uh-styles.css">
+
+    <style is="custom-style" include="shared-styles"></style>
   </head>
   <body>
-
-  <!-- TODO Add tests (below is just the polymer seed-element test) -->
-
-  <google-at-uh
-          id="authentication"
-          uh-jwt-url=""
-          google-user="{{googleUser}}"
-          uh-user="{{uhUser}}"
-          loading="{{authenticationLoading}}">
-  </google-at-uh>
 
     <script>
       var googleAtUH = document.querySelector('google-at-uh');
 
       suite('<google-at-uh>', function() {
 
-        test('default values test', function() {
-          assert.equal(googleAtUH.googleUser, null);
-          assert.equal(googleAtUH.uhUser, null);
-          assert.equal(googleAtUH.loading, false);
+        test('nothing here yet', function() {
+          assert.equal(null, null);
         });
 
       });
