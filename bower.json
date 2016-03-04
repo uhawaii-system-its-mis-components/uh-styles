@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Polymer element to integrate UH styles and themes with a polymer app.",
   "main": "uh-styles.html",
-  "homepage": "https://github.com/uhawaii-system-its-mis-elements/uh-styles/",
+  "homepage": "https://github.com/uhawaii-system-its-mis-components/uh-styles/",
   "ignore": [
     "/.*",
     "/test/",
